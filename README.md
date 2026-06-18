@@ -1,6 +1,6 @@
 # Finance Tracker
 
-Application web de gestion de transactions financières (revenus, dépenses, solde, filtre).
+Application web de gestion de transactions financières (revenus, dépenses, solde, filtre, recherche).
 
 ## Stack technique
 
@@ -61,4 +61,6 @@ L'application tourne sur [http://localhost:3000](http://localhost:3000).
 - CRUD complet des transactions
 - Résumé financier en temps réel
 - Filtre par type (Revenus / Dépenses)
+- Recherche sémantique côté client ( Titre / Description )
+- Pagination du tableau de transaction
 - Validation des données côté serveur
