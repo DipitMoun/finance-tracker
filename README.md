@@ -38,11 +38,15 @@ L'application tourne sur [http://localhost:3000](http://localhost:3000).
 
 ## Endpoints API
 
-Méthode | GET | Endpoint /api/transaction | Liste toutes les transactions |
-Méthode | POST | Endpoint /api/transaction | Créer une transaction |
-Méthode | PUT | Endpoint /api/transaction/:id | Modifier une transaction par son id |
-Méthode | DELETE | Endpoint /api/transaction/:id | Supprimer une transaction par son id |
-Méthode | GET | Endpoint /api/summary | Résumé financier (revenus, dépenses, solde) |
+- Méthode | GET | Endpoint /api/transaction | Liste toutes les transactions |
+
+- Méthode | POST | Endpoint /api/transaction | Créer une transaction |
+
+- Méthode | PUT | Endpoint /api/transaction/:id | Modifier une transaction par son id |
+
+- Méthode | DELETE | Endpoint /api/transaction/:id | Supprimer une transaction par son id |
+
+- Méthode | GET | Endpoint /api/summary | Résumé financier (revenus, dépenses, solde) |
 
 ## Fonctionnalités
 
