@@ -10,6 +10,14 @@ Application web de gestion de transactions financières (revenus, dépenses, sol
 - UI : Tailwind CSS + shadcn/ui
 - Validation : Zod
 
+## Choix Techniques & Architecture
+
+- **Next.js 15 (App Router)** : Choix de l'unification Frontend/Backend pour une vélocité de développement maximale et une gestion native des Server Actions / API Routes.
+- **PostgreSQL & Neon** : Utilisation d'une base de données relationnelle managée (plutôt qu'un stockage JSON) pour garantir l'intégrité des transactions financières et simuler des conditions réelles de production.
+- **Prisma ORM** : Sélectionné pour la sécurité du typage de bout en bout (du schéma de base de données jusqu'au composants React) et la simplicité des migrations.
+- **Zod** : Implémenté pour assurer une validation stricte et sécurisée des données côté serveur avant toute insertion ou modification en base de données.
+
+
 ## Prérequis
 
 - Node.js 20
