@@ -17,6 +17,7 @@ Application web de gestion de transactions financières (revenus, dépenses, sol
 - **Prisma ORM** : Sélectionné pour la sécurité du typage de bout en bout (du schéma de base de données jusqu'au composants React) et la simplicité des migrations.
 - **Zod** : Implémenté pour assurer une validation stricte et sécurisée des données côté serveur avant toute insertion ou modification en base de données.
 
+
 ## Prérequis
 
 - Node.js 20
